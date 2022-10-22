@@ -63,7 +63,7 @@ jobs:
 
       - name: Build Firmware
         env:
-          TNAME: K2P-5.0 #PSG1218 K2P K2P_nano PSG1208 PSG1218_nano
+          TNAME: K2P RM2100 MI-R3P
         run: |
           cd /opt/rt-n56u/trunk
           if [ ! -f configs/templates/$TNAME.config ] ; then
